@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - tic-tac-toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Neucha'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:400'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--<div style="height:100px;width:100px;font-size:120px;line-height:80px;color:white;text-align:center;padding:0px;margin-top:145px">X</div>-->
+<!-- Design idea from - https://elearning.net/elearning-examples/storyline-tic-tac-toe/ -->
+	
+<div class="container">
+	<div class="caption">
+		<span class="player-turn">It's Your Turn</span>
+		<span class="cpu-turn">Robot's Turn</span>
+	</div>
+	<table>
+		<tr class="top-row">
+			<td id="1"></td>
+			<td id="2"></td>
+			<td id="3"></td>
+		</tr>
+		<tr>
+			<td id="4"></td>
+			<td id="5"></td>
+			<td id="6"></td>
+		</tr>
+		<tr class="bottom-row">
+			<td id="7"></td>
+			<td id="8"></td>
+			<td id="9"></td>
+		</tr>	
+	</table>
+	<div id="start-btn">PLAY</div>
+</div>	
+
+<div class="popup-container" id="optsymbol">
+	<span>Choose your Symbol</span>
+	<div>
+		<button class="x-marker">x</button>
+		<button class="o-marker">o</button>
+	</div>
+</div>
+
+<div class="popup-container" id="endgame">
+	<span></span>
+	<button>play again</button>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
